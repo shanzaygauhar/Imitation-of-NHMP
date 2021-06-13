@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NHMP | Account</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">    
+	<link href="css/admin.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header id="header">
+		
+		<div class="header-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="logo pull-left">
+							<img src="images/shop/logo.jpg" alt=""  height="70px" width="70px">
+						</div>
+						<h3><title1><b>NATIONAL HIGHWAYS & MOTORWAY POLICE</b></title1></h3>
+					</div>
+					<div class="">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="editItems.html" ><i class="fa fa-edit"></i> Edit Inventory</a></li>
+								<li><a href="addItem.html"><i class="fa fa-plus"></i> Add Items</a></li>
+								<li><a href="RC.html" ><i class="fa fa-book"></i> RC Register</a></li>
+								<li><a href="Repair.html" class="active"><i class="fa fa-wrench"></i> Repair Stock</a></li>
+								<li><a href="DeadStock.html"><i class="fa fa-times"></i> Dead Stock</a></li>
+								<li><a href="LowStock.html"><i class="fa fa-bell"></i> Low Stock</a></li>
+								<li><a href="IssuedItems.html"><i class="fa fa-clock-o"></i> Issue History </a></li>
+								<li><a href="new.html"><i class="fa fa-user-plus"></i> Add User </a></li>
+								<li><a href="IssueRequest.html"><i class="fa fa-users"></i> Issuance Requests</a></li>
+								<li><a href="Report.html"><i class="fa fa-signal"></i> Generate Report</a></li>
+								<li><a href="AdminLogin.html"><i class="fa fa-lock"></i> Logout</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id= "form" style="margin-top: 0px">
+		<div> 
+			<div style="color: #020f5b; font-size:large;text-align:center;"><h3><span><b> Repair Stock Entry</b></span></h2> 
+			</div>
+			<table class="table1" style="border:none">
+				<form action="/action_page.php">
+			
+					<tr><td><b><label for="Item ID">Item ID</label></b>
+					<td id="in1"><input type="text" id="Item ID" name="Item ID" placeholder="Item ID">
+					
+					<br><br><br><br>
+					<tr><td><b><label for="Item Name">Item Name</label></b>
+					<td><input type="text" id="Item Name" name="Item Name" placeholder="Item Name..">
+					
+					<br><br><br><br>
+					<tr><td><b><label for="Vendor ID">Vendor ID</label></b>
+					<td id="in1"><input type="text" id="Vendor ID" name="Vendor ID" placeholder="Vendor ID">
+					
+					<br><br><br><br>
+					<tr><td><b><label for="Vendor Name">Vendor Name</label></b>
+					<td><input type="text" id="Vendor Name" name="Vendor Name" placeholder="Vendor Name..">
+					
+					<br><br><br><br>
+					
+					<tr><td><b><label for="Bill number">Bill number</label></b>
+					<td><input type="text" id="Bill number" name="Bill number" placeholder="Bill number..">
+					
+					<br><br><br><br>
+					
+					<tr><td><b><label for="Cost">Cost</label></b>
+					<td><input type="text" id="Cost" name="Cost" placeholder="Cost..">
+					
+					<br><br><br><br>
+					
+					<tr><td><b><label for="date">Repair Approval Date</label></b>
+					<td><input type="text" id="date" name="date" placeholder="Repair Approval Date..">
+					
+					<br><br><br><br>
+					
+					<tr><td><b><label for="order">Approval Order Number</label></b>
+					<td><input type="text" id="order" name="approvalorder" placeholder="Approval Order Number..">
+					
+					<br><br><br><br>
+					
+					<tr><td>
+					<td><input type="button" style="background-color: #020f5b" onclick = "" value="ADD">
+				</form>
+			</table>
+		</div>
+		
+	</div>
+	
+	
+
+	
+</body>
+</html>
