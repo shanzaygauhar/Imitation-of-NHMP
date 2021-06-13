@@ -22,6 +22,8 @@ enter command
 heroku local web
 
 then the following prompt opens:
+
+
 ![image](https://user-images.githubusercontent.com/68595241/121824892-d12f5e00-ccc8-11eb-9315-7701e9d7c7cf.png)
 
 1.For login
