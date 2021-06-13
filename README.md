@@ -16,6 +16,14 @@ The website is also deployed using heroku at link:
 
 https://mysterious-everglades-20844.herokuapp.com/
 
+For this link to work, install heroku and on the git bash terminal in the project directory 
+enter command
+
+heroku local web
+
+then the following prompt opens:
+![image](https://user-images.githubusercontent.com/68595241/121824892-d12f5e00-ccc8-11eb-9315-7701e9d7c7cf.png)
+
 1.For login
 
       Username: harris
